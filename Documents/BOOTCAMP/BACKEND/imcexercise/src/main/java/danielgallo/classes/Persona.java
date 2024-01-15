@@ -9,7 +9,13 @@ public class Persona {
         this.peso = peso;
     }
 
+    public double getEstatura() {
+        return estatura;
+    }
 
+    public double getPeso() {
+        return peso;
+    }
   
 
 }

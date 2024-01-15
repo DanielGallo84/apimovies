@@ -9,7 +9,7 @@ import danielgallo.classes.Persona;
 /**
  * Hello world!
  */
-public final class App {
+public  class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
