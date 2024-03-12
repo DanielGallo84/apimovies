@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import dev.dani.api_movies.models.Movie;
 import dev.dani.api_movies.services.MovieService;
+// import dev.dani.api_movies.models.Movie;
 
 @RestController
 @RequestMapping (path = "${api-endpoint}/api_movies")
@@ -27,9 +28,9 @@ public class MovieController {
         this.service = service;
     }
 
-    public MovieService getService () {
-        return service;
-    }
+     public MovieService getService () {
+         return service;
+     }
       @GetMapping(path = "")
     public List<Movie> index() {
 
